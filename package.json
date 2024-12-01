@@ -1,0 +1,20 @@
+{
+  "name": "playwright-with-patterns",
+  "version": "1.0.0",
+  "description": "Exemplo de playwright com Padroes de projeto",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "Pedro Branks",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "playwright": "^1.16.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
